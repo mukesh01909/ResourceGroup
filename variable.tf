@@ -3,12 +3,12 @@ variable "resource_group_name" {
  description = "Azure resource group name to use"  
 }
 
-variable "location" {
+variable "resource_group_location" {
   type = string
   description = "Azure region to use"
 }
 
-variable "rg_tags" {
+variable "tag_map" {
   type = map(any)
   description = "value"
 }
